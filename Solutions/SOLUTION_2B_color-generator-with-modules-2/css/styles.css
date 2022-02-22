@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 10px;
+    padding: 10px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2.5%;
+}
+
+.container {
+    display: flex;
+}
+
+#colors {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.color-box {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2.5% 5% 2.5% 0;
+    border-radius: 5%;
+}
+
+.delete {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.input-container {
+    margin-top: 2.5%;
+}
+
+#amount {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#create-boxes {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(92, 184, 92);
+}
+
+#create-boxes span {
+    margin-right: 5px;
+}
